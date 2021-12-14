@@ -1,0 +1,23 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "Date Formatter",
+            "name": "myRole",
+            "kind": "Measure"
+        }
+    ],
+    "tooltips": {
+        "supportedTypes": {
+            "default": true,
+            "canvas": true
+        },
+        "roles": [
+            "tooltips"
+        ]
+    },
+    "dataViewMappings": [
+        {
+            "single": { "role": "myRole" }
+        }
+    ]
+}
